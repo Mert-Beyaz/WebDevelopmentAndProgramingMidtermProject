@@ -1,9 +1,8 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-}
-.page{
-   background-color: #CFFF8D;
+    background-color: #CFFF8D;
+    margin: 0;
 }
 .top{
     display: flex;
@@ -13,12 +12,12 @@ body{
     margin-left: auto;
 }
 #top_img{
-    width: 100px;
-    height: 75px;
+    width: 5%; 
+    height: 5%;
 }
 .top_left{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin: 10px;
 }
@@ -27,10 +26,11 @@ body{
     color: blue;
 }
 #top_text_right{
-    text-align: right;
-    margin-right: 50px;
+    text-align: center;
+    margin-right: 2%;
     color: gray;
     font-size: 2em;
+    width: 100%;
 }
 .mid_blocks{
     display: flex;
@@ -44,7 +44,7 @@ body{
     width: 100%;
     background-color: #A8E890;
 }
-.left{
+.mid_left{
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -67,7 +67,7 @@ body{
 #mid_left_text{
     font-size: 1.5em;
 }
-.mid{
+.mid_mid{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,10 +82,10 @@ body{
 #mid_mid_img{
     display: flex;
     align-self: flex-end;
-    width: 100px;
-    height: 75px;
+    width: 10%;
+    height: 10%;
 }
-.right{
+.mid_right{
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -102,8 +102,8 @@ body{
     width: 75%;
 }
 #mid_right_img{
-    width: 100px;
-    height: 75px;
+    width: 30%;
+    height: 35%;
 }
 .mid_right_user{
     display: flex;
@@ -141,8 +141,8 @@ body{
     font-size: 1.5em;
 }
 #mid_right_mid_img{
-    width: 180px;
-    height: 90px;
+    width: 50%;
+    height: 40%;
 }
 .mid_right_buttom{
     display: flex;
@@ -154,6 +154,7 @@ body{
 .mid_right_buttom_text{
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size: 1.5em;
 }
 .mid_right_buttom_boxes{
@@ -197,11 +198,10 @@ body{
 .buttom_text{
     text-align: center;
 }
-#regular_link{
+.regular_link{
     color: black;
     margin: 2%;
 }
 #disabled_link{
     color: gray;
-    margin: 2%;
 }
